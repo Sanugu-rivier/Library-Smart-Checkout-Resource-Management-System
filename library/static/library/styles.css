@@ -1,0 +1,113 @@
+/* GLOBAL RESET ----------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL BODY ------------------------------------------------------------ */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f6f7fb;
+    color: #333;
+}
+
+/* NAVBAR ----------------------------------------------------------------- */
+.navbar {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+/* HEADINGS --------------------------------------------------------------- */
+h1, h2, h3, h4 {
+    font-weight: 600;
+    color: #222;
+}
+
+/* TABLES ----------------------------------------------------------------- */
+.table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #f0f0f0;
+    font-weight: 600;
+}
+
+.table td, .table th {
+    vertical-align: middle !important;
+}
+
+/* BUTTONS ---------------------------------------------------------------- */
+.btn {
+    border-radius: 6px !important;
+    padding: 6px 14px !important;
+}
+
+.btn-primary {
+    background-color: #0055cc !important;
+    border-color: #0055cc !important;
+}
+
+.btn-success {
+    background-color: #009944 !important;
+}
+
+.btn-warning {
+    background-color: #f4b400 !important;
+}
+
+/* CARDS ------------------------------------------------------------------ */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+/* LIST GROUP ------------------------------------------------------------- */
+.list-group-item {
+    border-left: 4px solid #0055cc !important;
+    background: #ffffff;
+}
+
+/* SEARCH BAR ------------------------------------------------------------- */
+.search-container input {
+    border-radius: 6px;
+    padding: 8px;
+}
+
+/* FORMS ------------------------------------------------------------------ */
+form label {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+form input, form select {
+    border-radius: 6px !important;
+}
+
+/* PAGE SPACING ----------------------------------------------------------- */
+.page-section {
+    margin-top: 25px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* DASHBOARD GRID --------------------------------------------------------- */
+.dashboard-section {
+    background: white;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
